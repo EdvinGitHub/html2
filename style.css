@@ -1,0 +1,18 @@
+.main-grid{
+    display: grid;
+    grid-template-columns: 1fr 2fr 3fr 4fr;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    grid-auto-flow: column;
+}
+
+h1{
+    text-align: center;
+    font-style: initial;
+    
+}
+
+h2{
+    text-align: center;
+    border: 10px lightblue;
+    padding: 10px;
+}
